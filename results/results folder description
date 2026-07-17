@@ -1,0 +1,14 @@
+#Description of results folder
+
+This folder contains images created by Brad Warfield, MSIS.
+
+The results are mostly CSVs. Some of the results are found in the images folder.
+The CSVs are the outputs of SQL querries.
+
+I created these results as a part of a data project analyzing healthcare data found at https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008
+
+The write up for this project can be seen at https://warfield-analyst.carrd.co/#sqldiabetes. Go check it out!
+
+For more on my journey from a data-driven teacher to a curiosity-driven analyst, connect with me at https://www.linkedin.com/in/brad-warfield/. Questions and comments are most welcome.
+
+The problems to solve for this project came from the Data Analytics Accelerator program from Data Career Jumpstart.
