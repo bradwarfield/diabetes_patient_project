@@ -1,5 +1,5 @@
 /* Query to create a summary of patient encounters based on the
-most medications, then most lab procedures, then least diagnoses.
+most medications then most lab procedures.
 Patient ID, race, and readmittance included in the summary */
 
 USE patient;
