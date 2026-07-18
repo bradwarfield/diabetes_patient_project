@@ -1,0 +1,6 @@
+Procedure_frequency,Avg_days_in_hospital,Num_encounters
+"Well below average (0-4)",3.2,5355
+"Below average (5-24)",3.31,12131
+"Average (25-64)",4.3,70721
+"Above average (65-84)",6.2,12517
+"Well above average (85+)",8.06,1042
