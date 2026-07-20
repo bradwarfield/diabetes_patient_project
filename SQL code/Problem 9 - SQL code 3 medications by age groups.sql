@@ -25,8 +25,7 @@ WITH
       'insulin' AS medication,
       insulin AS med_usage
     FROM
-      health
-  )
+      health)
 
 /* 	Main query begins here */
 SELECT
@@ -39,9 +38,8 @@ FROM
   long_health_cte
 INNER JOIN demographics 
 	ON long_health_cte.patient_nbr = demographics.patient_nbr
+/* Filtering out no so query only counts patient encounters that took the medication */
 WHERE
-	/* Only counting patient encounters that took the medication
-		Filtering out no */
 	med_usage != 'no'
 GROUP BY
 	medication,
