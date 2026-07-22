@@ -11,5 +11,7 @@ SELECT
     RPAD('', COUNT(*) / 500, '*') AS '* = 500 encounters'      
 FROM
     health
-GROUP BY days_in_hospital
-ORDER BY days_in_hospital;
+GROUP BY 
+	days_in_hospital
+ORDER BY 
+	days_in_hospital;
